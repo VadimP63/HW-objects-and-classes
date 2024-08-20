@@ -16,6 +16,6 @@ public class Author {
     }
 
     public String toString() {
-        return getSurname();
+        return "автор" + this.nameAuthor + " " + this.surnameAuthor;
     }
 }
