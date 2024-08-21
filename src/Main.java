@@ -17,5 +17,15 @@ public class Main {
         System.out.println("Книга - " + monteKristo.getTitle() + " " + monteKristo.getAuthor() + " "
                 + monteKristo.getYearOfPublication());
         System.out.println("Год публикации книги " + monteKristo.getTitle() + " - " + monteKristo.getYearOfPublication());
+
+        System.out.println(monteKristo);
+        System.out.println(monteKristo.hashCode());
+        System.out.println(robinsonCrusoe.hashCode());
+        System.out.println(danielDefoe.hashCode());
+        System.out.println(duma.hashCode());
+        System.out.println(danielDefoe.equals(duma));
+        Author dumaClone = new Author("Александр", "Дюма");
+        System.out.println(duma.equals(dumaClone));
+
     }
 }
